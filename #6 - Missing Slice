@@ -1,0 +1,20 @@
+<div />
+<style>
+  *{
+    margin:0;
+    background:#E3516e;
+    position:relative;
+  }
+  div {
+    position:absolute;
+    border:100px dashed;
+    border-radius:50%;
+    border-bottom-color: #F7F3D7;
+    border-top-color:#FADE8B;
+    border-left-color:#51B5A9;
+    border-right-color:#E3516E;
+    transform:rotate(45deg);
+    top:50;
+    left:100;
+  }
+</style>
