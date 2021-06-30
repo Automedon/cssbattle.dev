@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="o"></div>
+  <div class="o"></div>
+  <div class="o"></div>
+  <div class="o"></div>
+  <div class="o z"></div>
+  <div class="o z"></div>
+  <div class="o z"></div>
+  <div class="o z"></div>
+  <div class="o"></div>
+  <div class="o"></div>
+  <div class="o"></div>
+  <div class="o"></div>
+</div>
+<style>
+  * {
+	margin: 0;
+	background: #5C434C;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.o:nth-of-type(even) {
+	background: #F5D6B4;
+}
+.o {
+	margin: 10;
+	width: 80;
+	height: 80;
+	background: #F09462;
+	border-top-left-radius: 500px;
+}
+.z {
+	background: #F5D6B4;
+}
+.z:nth-of-type(even) {
+	background: #F09462;
+}
+</style>
