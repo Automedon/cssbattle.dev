@@ -1,0 +1,47 @@
+<div class='container'>
+  <div class='b1'></div>
+  <div class='c1 y'></div>
+  <div class='c1'></div>
+  <div class='b1  y'></div>
+</div>
+<div class='container cl1'>
+  <div class='c1 y t'></div>
+  <div class='b1'></div>
+  <div class='b1 y'></div>
+  <div class='c1 t'></div>
+</div>
+
+<style>
+  body{
+    margin:0;
+    padding:80 60;
+    background:#1A4341;
+  }
+  .container {
+    display:flex;
+    flex-direction:row;
+    width:300;
+    flex-wrap: wrap;
+  }
+  .b1 {
+    width:50;
+    height:50;
+ 	margin:10 10 0 10;
+    border-radius:25px;
+    background: #998235;
+  }
+  .c1 {
+    width:50;
+    height:50;
+ 	margin:10 10 10 10;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    background: #998235;
+  }
+  .y{
+    background:#F3AC3C;
+  }
+  .t{
+    transform:rotate(180deg)
+  }
+</style>
