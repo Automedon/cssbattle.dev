@@ -1,0 +1,48 @@
+<span></span>
+<div>
+  <p></p>
+  <p></p>
+  <p></p>
+</div>
+<div></div>
+<style>
+  *{
+    margin:0;
+    background:#1A4341;
+  }
+  span {
+    position:fixed;
+    left:100;
+    top:50;
+    width:200;
+    height:200;
+    background:#998235;
+    border-radius:50%;
+  }
+  div:nth-child(2) {
+    position:fixed;
+    display:flex;
+    top:80;
+    left:75;
+    flex-direction:column;
+    justify-content:space-evenly;
+    width:250;
+    height:140;
+    overflow:hidden;
+  }
+  p {
+    height:20px;
+    background:#F3AC3C;
+  }
+  div:nth-child(3) {
+    position:fixed;
+    top:50%;
+    left:50%;
+    background:transparent;
+    border-radius:50%;
+    border:50px solid #1A4341;
+    width:250;
+    height:250;
+    transform: translate(-50%,-50%)
+  }
+</style>
