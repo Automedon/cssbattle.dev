@@ -1,0 +1,60 @@
+<div a class='ball'></div>
+<div b class='ball'></div>
+<div c class='ball'></div>
+<div d class='ball'></div>
+<div e></div>
+<div f></div>
+<style>
+  *{
+    background:#243D83;
+  }
+  .ball{
+    position:absolute;
+    top:65;
+    left:170;
+    width: 60px;
+    height: 50px;
+    background:#6592CF;
+    border-radius:50%;
+   	-webkit-box-reflect:below 70px;
+    z-index:5;
+  }
+  [b]{
+    top:85;
+    left:210;
+    -webkit-box-reflect:below 63px;
+    transform:rotate(45deg)
+  }
+  [c]{
+    top:125;
+    left:230;
+    -webkit-box-reflect:below 70px;
+    transform:rotate(90deg)
+  }
+  [d]{
+    top:85;
+    left:130;
+    -webkit-box-reflect:below 63px;
+    transform:rotate(-45deg)
+  }
+  [e]{
+    position:absolute;
+    top:90;
+    left:150;
+    width: 60px;
+    height: 65px;
+    background:#243D83;
+    border-radius:0 0 50px 50px;
+    border:20px solid #6592CF;
+  }
+  [f]{
+    position:absolute;
+    top:130;
+    left:185;
+    width: 10px;
+    height: 10px;
+    background:#6592CF;
+    border-radius:50%;
+   	-webkit-box-reflect:right 10px;
+  }
+</style>
