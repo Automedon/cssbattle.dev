@@ -1,0 +1,101 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<div e></div>
+<div f></div>
+<span g></span>
+<span h></span>
+<style>
+  body{
+    background:#191919
+  }
+  div,:after{
+    content:'';
+    display:block;
+    box-sizing:border-box;
+  }
+  div {
+    position:absolute;
+    width: 70px;
+    border:5px solid #E08027;
+  }
+
+  div:after{
+    width:100%;
+    height:100%;
+    border:5px solid #E08027;
+  }
+  div:nth-child(odd){
+    padding:0 10px 10px;
+    bottom:40px;
+    border-radius:0 0 50px 50px;
+    border-top:none;
+  }
+  div:nth-child(odd):after{
+    border-radius:0 0 50px 50px;
+    border-top:none;
+  }
+   div:nth-child(even){
+    padding:10px 10px 0;
+    top:40px;
+    border-radius:50px 50px 0 0;
+    border-bottom:none;
+  }
+  div:nth-child(even):after{
+    border-radius:50px 50px 0 0;
+    border-bottom:none;
+  }
+  [a]{
+    height:70;
+    top:90;
+    left:-35;
+  }
+  [b]{
+    height:70px;
+    left:15px;
+  }
+  [c]{
+    height:150px;
+    left:65px;
+  }
+  [d]{
+    height:150px;
+    left:115px;
+  }
+  [e]{
+    height:70px;
+    left:165px;
+  }
+  [f]{
+    width:65;
+    height:80;
+    left:215;
+    top:140 !important;
+    border-radius: 35px 0 0 0 !important;
+    border-right:none;
+  }
+  [f]:after{
+    border-radius: 20px 0 0 0 !important;
+    border-right:none;
+  }
+  [g]{
+    position:absolute;
+    background:#E08027;
+    width:50px;
+    height:30;
+    border-radius:14px 20px 20px 14px;
+    top:135;
+    left:265;
+  }
+  [h]{
+    position:absolute;
+    background:#191919;
+    width:10px;
+    height:10;
+    border-radius:20px;
+    top:137;
+    left:295;
+    -webkit-box-reflect:below 6px;
+  }
+</style>
