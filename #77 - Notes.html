@@ -1,0 +1,90 @@
+<div>
+  <div a></div>
+  <div b></div>
+</div>
+<div>
+  <div a></div>
+  <div b></div>
+</div>
+<div>
+  <div a></div>
+  <div b></div>
+</div>
+<div>
+  <div a></div>
+  <div b></div>
+</div>
+<div c></div>
+<div d></div>
+<div e></div>
+<style>
+  *{
+    background:#191919;
+  }
+  div:nth-child(1) {
+    position:fixed;
+    top:85;
+    left:27.5;
+  }
+  div:nth-child(2) {
+    position:fixed;
+    top:85;
+    left:97.5;
+  }
+  div:nth-child(3) {
+    position:fixed;
+    top:85;
+    left:167.5;
+  }
+  div:nth-child(4) {
+    position:fixed;
+    top:85;
+    left:237.5;
+  }
+  div>[a]{
+    position:absolute;
+    width:50;
+    height:40;
+    background: #FE5F55;
+    border-radius:50%;
+  }
+  div>[b]{
+    position:absolute;
+    width:10;
+    height:100;
+    background: #FE5F55;
+    top:5;
+    left:67.5;
+  }
+  div:nth-child(3)>[a]{
+    background: #A64942;
+  }
+  div:nth-child(3)>[b]{
+    background: #A64942;
+  }
+  [c]{
+    position:fixed;
+    top:90;
+    right:55;
+    background:#FE5F55;
+    width:30;
+    height:10;
+    -webkit-box-reflect: below 10px;
+  }
+  [d]{
+    position:fixed;
+    top:90;
+    right:125;
+    background:#A64942;
+    width:30;
+    height:10;
+  }
+  [e]{
+    position:fixed;
+    top:90;
+    left:105;
+    background:#FE5F55;
+    width:60;
+    height:10;
+  }
+</style>
