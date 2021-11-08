@@ -1,0 +1,38 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<style>
+  *{
+    background:#F3AC3C;
+  }
+  [a] {
+    position:absolute;
+    left:118;
+    top:70;
+    width: 100px;
+    height: 100px;
+    transform:rotate(45deg);
+    border:30px solid #998235;
+  }
+  [b]{
+    position:absolute;
+    left:117;
+    top:-22;
+    width: 100px;
+    height: 100px;
+    background:transparent;
+    transform:rotate(45deg);
+    border:30px solid #F3AC3C;
+  }
+  [c]{
+    position:absolute;
+    left:183;
+    top:135;
+    width: 30px;
+    height: 30px;
+    background:#1A4341;
+    transform:rotate(45deg);
+
+  }
+</style>
+
