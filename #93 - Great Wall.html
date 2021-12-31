@@ -1,0 +1,102 @@
+<div a>
+  <div b></div>
+  <div c></div>
+  <div d></div>
+  <div e></div>
+</div>
+<style>
+  *{
+    background-color:#4F77FF;
+  }
+  [a] {
+    position:relative;
+    top:42;
+    left:92;
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+    background: #191919;
+    overflow:hidden;
+  }
+  [b] {
+    position:absolute;
+    background:#F9E492;
+    top:40;
+    left:40;
+    border-radius:50%;
+    height:40;
+    width:40;
+  }
+  [c] {
+    position:absolute;
+    background:#F9E492;
+    top:148;
+    height:16;
+    width:100;
+  }
+  [c]:after {
+    position:absolute;
+    background:#F9E492;
+    top:26;
+    content:"";
+    height:16;
+    width:100;
+  }
+  [c]:before {
+    position:absolute;
+    background:#F9E492;
+    top:-26;
+    content:"";
+    height:16;
+    width:100;
+  }
+  [d] {
+    position:absolute;
+    background:#F9E492;
+    top:134.5;
+    right:-20;
+    height:16;
+    width:100;
+  }
+  [d]:after {
+    position:absolute;
+    background:#F9E492;
+    top:26;
+    content:"";
+    height:16;
+    width:100;
+  }
+  [d]:before {
+    position:absolute;
+    background:#F9E492;
+    top:-26;
+    content:"";
+    height:16;
+    width:100;
+  }
+  [e] {
+    position:absolute;
+    background:#D6B73F;
+    top:141;
+    right:80;
+    height:16;
+    width:20;
+    transform:skewY(-33.5deg)
+  }
+  [e]:after {
+    position:absolute;
+    background:#D6B73F;
+    top:26;
+    content:"";
+    height:16;
+    width:20;
+  }
+  [e]:before {
+    position:absolute;
+    background:#D6B73F;
+    top:-26;
+    content:"";
+    height:16;
+    width:20;
+  }
+</style>
