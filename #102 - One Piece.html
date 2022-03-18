@@ -1,0 +1,119 @@
+<div b b1 />
+<div b b2 />
+<div b b3 />
+<div b b4 />
+<div c />
+<div d />
+<div e />
+<div f />
+<style>
+  *{
+    background:#000000;
+    margin:0;
+  }
+  [b] {
+    position:relative;
+    background:white;
+    width:25;
+    height:20;
+
+  }
+  [b]:after {
+    content:'';
+    position:absolute;
+    background:white;
+    width:25;
+    height:25;
+	top:-10;
+    left:-13;
+    border-radius:50px;
+  }
+  [b]:before {
+    content:'';
+    position:absolute;
+    background:white;
+    width:25;
+    height:25;
+	top:5;
+    left:-13;
+    border-radius:50px;
+  }
+  [b1] {
+    top:101;
+    left:109;
+    transform: rotate(45deg);
+  }
+  [b2] {
+    top:69;
+    left:68.5;
+    transform: rotate(-90deg);
+  }
+  [b3] {
+    top:110.5;
+    left:111;
+    transform: rotate(-90deg);
+  }
+  [b4] {
+    top:69;
+    left:68.5;
+    transform: rotate(-90deg);
+  }
+  [c] {
+    position:fixed;
+    width:100;
+    height:150;
+    background:white;
+    transform: rotate(-45deg);
+    top:-44;
+    left:53;
+    border-radius:50px;
+  }
+  [d] {
+    position:fixed;
+    width:40;
+    height:50;
+    background:#000000;
+    transform: rotate(-30deg);
+    top:80;
+    left:30;
+    border-radius:50%;
+  }
+  [e] {
+    position:fixed;
+    width:40;
+    height:50;
+    background:#000000;
+    transform: rotate(-120deg);
+    top:-52;
+    left:30;
+    border-radius:50%;
+  }
+  [f] {
+    position:relative;
+    width:15;
+    height:20;
+    background:#FFFFFF;
+  	transform: rotate(60deg);
+    top:42;
+    left:-52.5;
+  }
+  [f]:before {
+    position:absolute;
+    content:'';
+    width:15;
+    height:20;
+    background:#FFFFFF;
+    top:0;
+    left:-20;
+  }
+  [f]:after {
+    position:absolute;
+    content:'';
+    width:15;
+    height:20;
+    background:#FFFFFF;
+    top:0;
+    left:-40;
+  }
+</style>
+
