@@ -1,0 +1,90 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<div e></div>
+<div f></div>
+<div g></div>
+<div class='c1'></div>
+<div class='c1 c2'>
+<div class='c1 c3'></div>
+<style>
+  * {
+    margin:0;
+    background:#161616;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+  }
+
+  [a] {
+    position:absolute;
+    top:160;
+    left:137;
+    width: 60px;
+    height: 30px;
+    background: #EBAE11;
+    transform:rotate(15deg);
+  }
+  [b] {
+    position:absolute;
+    top:160;
+    left:202.5;
+    width: 60px;
+    height: 30px;
+    background: #EBAE11;
+    transform:rotate(-15deg);
+  }
+  [c] {
+    position:absolute;
+    top:151;
+    left:160;
+    width: 80px;
+    height: 65px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(255,222,185,1) 50%);
+  }
+  [d] {
+    position:absolute;
+    top:134;
+    left:142;
+    width: 60px;
+    height: 30px;
+    background: #EBAE11;
+    transform:rotate(60deg);
+  }
+  [e] {
+    position:absolute;
+    top:196;
+    left:190;
+    width: 20px;
+    height: 10px;
+    background: #161616;
+  }
+  [f] {
+    position:absolute;
+    top:134;
+    left:198;
+    width: 60px;
+    height: 30px;
+    background: #EBAE11;
+    transform:rotate(-60deg);
+  }
+
+  .c1 {
+    position:absolute;
+    top:63;
+    width:126;
+    height:126;
+    border-radius:50%;
+	background:transparent;
+  }
+  .c2{
+  	left:182.5;
+    background:transparent;
+	overflow:hidden;
+  }
+  .c3{
+    left:-91;
+    top:0;
+    background:#EBAE11;
+  }
+</style>
