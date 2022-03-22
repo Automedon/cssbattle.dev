@@ -1,0 +1,87 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<div e></div>
+<style>
+  * {
+    background:#000000;
+  }
+  [a] {
+    position:fixed;
+    top:90;
+    left:80;
+    width: 240px;
+    height: 120px;
+    border-radius:20px;
+    background: #37385A;
+  }
+  [b] {
+    position:fixed;
+    top:110;
+    left:100;
+    width: 200px;
+    height: 80px;
+    border-radius:10px;
+    background: #9897AE;
+  }
+  [c] {
+    position:fixed;
+    top:110;
+    left:174;
+    width: 52px;
+    height: 80px;
+    transform:skew(-15deg);
+    background: #C0C3DB;
+  }
+  [d] {
+    position:fixed;
+    top:145;
+    left:115;
+    width: 10px;
+    height: 10px;
+    border-radius:50%;
+    background: #000000;
+    -webkit-box-reflect:right 150px;
+  }
+  [d]:after {
+    content:'';
+    position:fixed;
+    top:165;
+    left:115;
+    width: 10px;
+    height: 10px;
+    border-radius:50%;
+    background: #000000;
+  }
+  [d]:before {
+    content:'';
+    position:fixed;
+    top:125;
+    left:115;
+    width: 10px;
+    height: 10px;
+    border-radius:50%;
+    background: #000000;
+  }
+  [e] {
+    position:fixed;
+    top:125;
+    left:165;
+    width: 10px;
+    height: 50px;
+    border-radius:10px;
+    background: #000000;
+     -webkit-box-reflect:right 50px;
+  }
+  [e]:after {
+    content:'';
+    position:fixed;
+    top:125;
+    left:185;
+    width: 10px;
+    height: 50px;
+    border-radius:10px;
+    background: #000000;
+  }
+</style>
