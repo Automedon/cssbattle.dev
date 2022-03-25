@@ -1,0 +1,66 @@
+<div a></div>
+<div b>
+	<div b1></div>
+    <div b2>
+    	<div b3></div>
+    </div>
+	<div b4></div>
+</div>
+<style>
+  *{
+    background:#BAC7CE
+  }
+  [a] {
+    background:#475862;
+    position:fixed;
+    width:150;
+    height:150;
+    transform:rotate(45deg);
+    left:125;
+    top:-90;
+  }
+  [b] {
+    position:relative;
+    top:122;
+    left:242;
+    -webkit-box-reflect:left 100px;
+  }
+  [b1] {
+    position:absolute;
+    background:black;
+    width:120;
+    height:120;
+    transform:rotate(15deg);
+    border-top-left-radius:60px;
+    border-bottom-right-radius:60px;
+  }
+  [b2] {
+    position:relative;
+    overflow:hidden;
+    background:#5A6042;
+    width:100;
+    height:100;
+    top:10;
+    left:10;
+    border-radius:50%;
+  }
+  [b3] {
+    position:absolute;
+    background:#868A64;
+    width:100;
+    height:100;
+    top:15;
+    left:0;
+    border-radius:50%;
+  }
+  [b4] {
+    position:absolute;
+    background:#4E2B24;
+    width:30;
+    height:30;
+    top:40;
+    left:40;
+    border:5px solid black;
+    border-radius:50%;
+  }
+</style>
