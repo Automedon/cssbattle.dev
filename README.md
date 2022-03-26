@@ -3,4 +3,4 @@ cssbattle.dev solutions
 
 It is not the best but is my humble solutions
 
-105/108 Waiting for new battles :hugs:
+106/108 Waiting for new battles :hugs:
